@@ -1,10 +1,3 @@
-import numpy as np
-import cv2
-import matplotlib.pyplot as plt
-from skimage.exposure import adjust_sigmoid as asig
-from skimage.filters import threshold_otsu, threshold_local
-from skimage.util import invert
-
 
 i = cv2.imread("layer.jpg",0)
 l = cv2.imread("stage.jpg",0)
